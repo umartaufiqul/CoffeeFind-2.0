@@ -1,0 +1,32 @@
+@font-face {
+  font-family: 'KIN668';
+  src = url('KIN668.ttf') format('truetype');
+}
+
+
+#menu-top ul, li {
+  text-align: left;
+}
+
+* {
+  text-align: center;
+}
+
+p {
+  font-size: 1.2em;
+}
+
+h2 {
+  font-size: 2em;
+}
+
+hr {
+  border: 1px solid white;
+}
+
+.banner-1 {
+  height: 500px;
+  padding-top: 70px;
+  background-image: url('background1.jpg');
+  background-size: cover;
+}
