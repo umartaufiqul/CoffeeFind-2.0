@@ -3,12 +3,12 @@
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <link rel="stylesheet" href="style.css" />
   <!-- Latest compiled and minified CSS -->
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+  <link rel="stylesheet" href="style.css" />
   <title>Coffee Find </title>
 </head>
 <body>
@@ -34,13 +34,50 @@
             <a class="nav-link" href="#">My Page</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="#">Login</a>
+            <a class="nav-link" href="login.html">Login</a>
           </li>
         </ul>
       </div>
     </div>
   </nav>
 
-  <h1 class="display-3"> This is the cafe list! </h1>
+  <div class="jumbotron" id="menu" style="background-color: #d1c5bc">
+    <div class="row mb-4">
+      <div class="container col-md-6 offset-md-3">
+        <form class="form-inline">
+          <input class="form-control mx-sm-2 w-75" type="search" placeholder="Search" aria-label="Search">
+          <button class="btn btn-outline-success my-2 my-sm-0 ml-xs-2" type="submit">Search</button>
+        </form>
+      </div>
+    </div>
+    <div class="container" style="text-align: left;">
+      <div class="hr-line-dashed col-md-8 offset-md-2"></div>
+      <div class="search-result col-md-8">
+        <h5><a  href="#" class="lead">Coffee Bean and Tea Leaf</a></h5>
+        <p>
+            291 Daehak-ro
+        </p>
+      </div>
+
+      <div class="hr-line-dashed col-md-8 offset-md-2"></div>
+      <div class="search-result col-md-8">
+        <h5><a  href="#" class="lead">Starbucks</a></h5>
+        <p>
+            291 Daehak-ro
+        </p>
+      </div>
+
+      <div class="hr-line-dashed col-md-8 offset-md-2"></div>
+      <div class="search-result col-md-8">
+        <h5><a  href="#" class="lead">Cafe Gran</a></h5>
+        <p>
+            291 Daehak-ro
+        </p>
+      </div>
+    </div>
+  </div>
+
+
+
 </body>
 </html>
